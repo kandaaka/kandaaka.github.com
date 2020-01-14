@@ -1,0 +1,150 @@
+#page{
+    width:90%;
+    margin:auto;
+}
+#title{
+    background-color: white;
+}
+div{
+    padding:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin:auto;
+    align-content:center;
+    
+}
+
+.mySketch{
+    width:800px;
+    height:250px;
+}
+section{
+    text-align:center;
+    margin:40px 20px;
+    display:block;
+    background-color: #aaaaaa77;
+
+}
+
+header{
+    display: block;
+    padding:30px;
+    width:80%;
+    margin:auto;
+    background-color:rgba(255, 255, 255, 0.534);
+
+}
+
+ol{
+    list-style-type: none;
+    line-height: 2em;
+    padding:0;
+    padding-bottom: 15px;
+    text-align:center;
+    width:75%;
+    margin:auto;
+}
+
+a {
+    text-decoration: none;
+    color:#232020;
+    font-style: Bold;
+    text-align: center;
+    padding: 0 10px;
+    display:block;
+    background-color:#aaaaaa83;
+    padding:20px;
+
+}
+
+li{
+    text-align: center;
+    padding:20px;
+    display:block;
+}
+a:hover {
+    color:#a56a17;
+    
+}
+
+section:hover{
+    background-color: #aaaaaaa9;
+}
+
+section:hover ol li a {
+    background: #aaaaaa;
+}
+
+a:hover{
+    background-color: #aaaaaaa9;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:#794e12;
+    font-family: 'Kaushan Script', cursive;
+
+
+    
+}
+h2,h3{
+    text-align:center;
+    color: #794e12;
+    background-color:#aaaaaa6e;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin:0;
+    padding-right:0;
+    padding-left:0;
+    font-family: 'Kaushan Script', cursive; 
+}
+p{
+    text-align: center;
+}
+
+footer{
+    display: block;
+    padding:30px;
+    color:#794e12;
+    font-size:15px;
+}
+footer a{
+    background-color:transparent;
+    padding:0;
+    color:#794e12;
+}
+footer a:hover{
+    color:black;
+    background-color:transparent;
+}
+
+@media only screen and (min-width: 800px) {
+    div{
+        display:flex;
+    }
+    section{
+        flex:1;
+    }
+    header, footer {
+         width: 100%; 
+         flex: 100%; 
+        
+    }
+    nav{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    nav ul li{
+        display:block;
+        flex:1;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        max-width:1200px;
+        margin:auto;
+    }
+}
