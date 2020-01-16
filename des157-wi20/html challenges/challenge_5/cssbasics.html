@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Oxygen&display=swap" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>HTML and CSS Refresher Challenges</title>
+</head>
+<body>
+    <header>
+        <h1>HTML and CSS Refresher Challenges</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML Basics</a></li>
+            <li><a href="cssbasics.html">CSS Basics</a></li>
+            <li><a href="layout.html">Page Layout</a></li>
+            <li><a href="responsive.html">Responsive Design</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Inheritance in CSS</h2>
+            <p>Inheritance is when one element inherits the properties of its parent element if there is no specified property for the element. Examples of inherited properties are color, margin, font size, and padding. Border is an example of a property that isn't inherited from the parent element.</p>
+        </article>
+        <article>
+            <h2>Specifity in CSS</h2>
+            <p>Specificy is when an it is specified which element will receive the property. This can be determined by using class or id. It is mainly used when there are two or more CSS rules for a specific element. The browser follows the rules and determines which one is more specific.There are two types of selectors the multiple selector and the compound selector. The multiple selector is when several elements have the same property.This type of selection allows you to minimize the code lines and the elements are separated by a comma (ie. h1, h2, p). A compound selector gets higher priority when deciding what property the element gets (ie. nav ul li a). This is an example of a compound selector that targets the anchor element within the nav element.</p>
+        </article>
+        <article>
+            <h2>ID and Class Attributes</h2>
+            <p>ID can only be used once in the html, while the class attribute will allow you to use it as many times and to any element. All the elements with class will get the same properties.</p>
+        </article>
+    </main>
+    <footer>
+        <p>Page by Sarrah Solomon</p>
+        <p>HTML checked by Annie</p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
+    </footer>
+</body>
+</html>
