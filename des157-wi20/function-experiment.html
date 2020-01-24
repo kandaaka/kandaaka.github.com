@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function Experiments</title>
+</head>
+<body>
+    <h1>Experimentation</h1>
+
+    <script>
+        var name=prompt("What is your name?","");
+        function fname(name){
+            if (name ==="" || name ==="null"){
+                console.log("Please enter a name")
+            }
+            else{
+                console.log(`Hi ${name}`);
+            }
+        }
+        fname(name);
+        function ffood(name){
+            var food =["fries","waffles","burgers","pizza","chips"];
+            function randomInt(min,max){
+                return Math.floor((max-min+1)* Math.random()) + min
+            }   
+            randomInt(food)
+            console.log(`Do you want some ${food[randomInt(0,4)]}, ${name}?`)
+        
+        }
+        ffood(name);
+        
+    
+    
+    </script>
+</body>
+</html>
