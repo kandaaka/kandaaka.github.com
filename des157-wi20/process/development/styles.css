@@ -38,8 +38,10 @@ h3{
     color:#e3d6ee;
 }
 
-p{
-    font-family: 'Inconsolata', monospace;
+#para{
+    text-align:left;
+    padding:25px 120px;
+    max-width:800px;
 }
 div{
     display:flex;
@@ -52,6 +54,7 @@ footer a{
     text-decoration:none;
 }
 footer{
-    padding-top:30px;
     font-family: 'Inconsolata', monospace;
+    text-align:center;
+    padding-top:25px;
 }
