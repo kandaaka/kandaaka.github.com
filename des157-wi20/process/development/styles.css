@@ -1,0 +1,57 @@
+#page{
+    width:90%;
+    margin:auto;
+}
+
+body{
+    text-align: center;
+    background-color:#e3d6ee;
+
+}
+
+h1{
+    font-size: 50px;
+    color:#3d006e;
+    font-family: 'Kaushan Script', cursive;
+    padding-top:35px;
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;
+    padding-bottom:30px;
+    
+}
+h3{
+    text-align:left;
+    padding:25px 45px;
+    font-family: 'Inconsolata', monospace;
+    color:#e3d6ee;
+
+}
+
+#name{
+    text-align:right;
+}
+
+#name a{
+    text-decoration:none;
+    color:#e3d6ee;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+}
+div{
+    display:flex;
+    background-color: #3d006e;
+    justify-content:space-between;
+}
+
+footer a{
+    color:#3d006e;
+    text-decoration:none;
+}
+footer{
+    padding-top:30px;
+    font-family: 'Inconsolata', monospace;
+}
