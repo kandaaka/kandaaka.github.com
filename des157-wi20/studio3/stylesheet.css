@@ -1,0 +1,14 @@
+body{
+    padding-top: 10vh;
+    margin:auto;
+    min-width:800px;
+    background-color:#E4E5F3;
+    padding-left:10vh;
+}
+input {display: block; margin-bottom: 20px;}
+
+
+img{
+    float:right;
+    border-bottom:rgb(165, 171, 250) solid 5pt;
+}
