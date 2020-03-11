@@ -1,0 +1,129 @@
+body{
+    text-align:center;
+    background: #E2DCEE;
+    margin:auto;  
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    max-width:600px;
+
+}
+
+#logo{
+    max-width:35%;
+    position:relative;
+    top:100px;
+    
+}
+
+h1{
+    color: #7B6CC9;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    position:relative;
+    top:20px;
+    
+
+}
+
+#description{
+    text-transform: uppercase;
+    color: #9F95C8;
+    width: 223px;
+    height: 34px;
+    top: 25px;
+    font-size: 13px;
+    line-height: 19px;
+    padding-bottom:65px;
+    text-align: center;
+    margin:auto;
+    position:relative;
+}
+
+#start{
+    color: #7B6CC9;
+    background: #D3CFE8;
+    border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	font-size: 14px;
+    padding:16px 31px;
+    position: relative;
+    top: 62px;
+    width:65px;
+    text-transform: uppercase;
+    text-align: center;
+    margin:auto;
+}
+
+#df,#fnm{
+    color: #7B6CC9;
+    background: #D3CFE8;
+    border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:16px 31px;
+    text-align: center;
+    margin:auto;
+    
+}
+
+#df{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 40px;
+    top: 250px;
+}
+
+#fnm{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 40px;
+    top: 393px;
+}
+a{
+    text-decoration:none;
+}
+
+#topnav{
+    background: #E6E5EB;
+    height: 94px;
+    position: absolute;
+    width: 450px;
+    left: -5px;
+    top: 0px;
+
+}
+
+#tiny{
+    position:absolute;
+    float:left;
+    left: 9.07%;
+    right: 78.93%;
+    top: 0.46%;
+    bottom: 91.63%;
+    width:18%;
+
+}
+
+#title{
+    position: absolute;
+    left: 180px;
+    top: 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    display:block;
+
+
+}
