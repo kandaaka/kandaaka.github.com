@@ -485,6 +485,7 @@ input{
 }
 
 #tlevel{
+    position:relative;
     text-align:left;
     font-weight: bold;
     font-size: 18px;
@@ -558,6 +559,6 @@ input{
 .container{
     padding-bottom:100px;
 }
-li{
+.container li{
     padding-bottom:100px;
 }
