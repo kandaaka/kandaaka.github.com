@@ -517,8 +517,8 @@ input{
 .name{
     position: relative;
     top: 20px;
-    left:-160px;
-    
+    left:-12px;
+    float:left;
     font-family: Rounded Mplus 1c Bold;
     font-style: normal;
     font-weight: bold;
@@ -529,9 +529,9 @@ input{
 }
 .address{
     position: relative;
-    top: 18px;
+    top: 50px;
     float:left;
-    left:-12px;
+    left:-112px;
     font-family: Rounded Mplus 1c Bold;
     font-style: normal;
     font-size: 13px;
@@ -539,20 +539,7 @@ input{
     color: #000000;
     text-transform: none;
 }
-.type{
-    position: relative;
-    top: 50px;
-    float:left;
-    left:-204px;
-    font-family: Rounded Mplus 1c Bold;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 27px;
-    padding-bottom:30px;
-    color:#7B6CC9;
-    text-transform: none;
 
-}
 .time{
     position: relative;
     top: 23px;
